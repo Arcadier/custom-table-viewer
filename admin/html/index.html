@@ -1,0 +1,102 @@
+ <!-- begin header -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+ <!-- end header-->
+<div class="gutter-wrapper">
+    <div class="panel-box">
+        <div class="page-content-top">
+            <h4>Custom Table</h4>
+            <h5>Look for the custom table created by plugins</h5>
+        </div>
+    </div>
+      
+      
+    <div class="panel-box hftop-panel header-footer-content">
+        <div class="page-content-btm ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label><b>Plug-In ID</b></label>
+                            <div class="plug-in-group">
+                                <input class="form-control" type="text" value="" placeholder="" name="plug_in_id">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label><b>Table Name</b></label>
+                            <div class="plug-in-group">
+                                <input class="form-control" type="text" value="" placeholder="" name="table_name">
+                            </div>
+                            <button class="btn btn-customize-layoutsave select-plugin">Fetch Table Contents</button>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+      <div class="panel-box">
+        <div class="table-view-filter">
+        <div class="filter-bar page-topnav" style="margin-bottom: 0;box-shadow: none;">
+            <div class="sassy-filter lg-filter">
+                <div class="sassy-flex">
+                    <div class="sassy-l grey_filter">
+                        <div>
+                            <div class="group-search">
+                                <label for="" class="sassy-label">Search For: </label> 
+                                <span class="sassy-search">
+                                    <input class="form-control" name="keywords" id="query-keywords" placeholder="Search">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sassy-l grey_filter">
+                        <div>
+                            <div class="group-search">
+                                <label for="" class="sassy-label">In Column: </label> 
+                                <select name="select-column" class="form-control"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sassy-l grey_filter">
+                        <div>
+                            <div class="group-search">
+                                <label for="" class="sassy-label">Precision: </label> 
+                                <select name="select-operator" class="form-control">
+                                    <option>Exact Match</option>
+                                    <option>Similar To</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="sassy-l grey_filter">
+                        <div>
+                            <button class="btn btn-filter-search query-table">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="merchant-commission-table scheduler-tbl">
+                <table class="table" id="no-more-tables">
+                    <thead>
+                        <tr>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <nav class="text-center " id="pagination-transactions" aria-label="Page navigation"></nav>
+            </div>
+        </div>
+      
+
+
+      
+</div>
+<!-- <script src="scripts/scripts.js"></script> -->
